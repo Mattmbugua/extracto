@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         TextRecognizer textRecognizer = new TextRecognizer.Builder(this).build();
         if (!textRecognizer.isOperational()){
 
-            Toast.makeText(this, "error occurred.text not recognised", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "error occurred.text", Toast.LENGTH_SHORT).show();
 
         }else{
 
