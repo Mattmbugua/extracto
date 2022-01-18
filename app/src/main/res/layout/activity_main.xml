@@ -40,6 +40,14 @@
            android:layout_weight="1"
            android:text="Copy to clipboard"
            android:layout_margin="8dp"/>
+       <Button
+           android:visibility="gone"
+           android:id="@+id/button_word_doc"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="create doc"
+           android:layout_margin="8dp"/>
    </LinearLayout>
 
 </RelativeLayout>
